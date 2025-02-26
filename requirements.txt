@@ -1,2 +1,6 @@
 numpy==2.0.0
 pandas==2.2.2
+scikit-learn==1.5.1
+logging==22.0.4
+json==2.0.9
+pickle

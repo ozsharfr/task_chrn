@@ -50,11 +50,12 @@ Consider also using different rolling_window other than 5
 - Data was splitted by customers ids - to avoid mix of same customers in train and test
 - Timeline was similar for all customers, and in small range, so it was probably not critical to separate times 
 
-## Results & Insights
+## Results & Insights (what worked and also what did not work)
 - **SMOTE and additional oversampling did not improve performance**, so weighted class balancing was used instead.
 - The model performed best when differentiating recent transactions.
-- Dimantionality reduction with mehods such as PCA did not improve the results, so were neglected.
+- Dimantionality reduction with mehods such as PCA did not improve the results, so were neglected (for clean code purposes, code was not added).
 - Changing the model into linear, with continous explained variable, did not contribute much for better predictions.
+- Applying naively LSTM on the transactions ordered by months to predict whether ANY churn happened, also seemed to be unstable (code was not added) 
 l
 
 ## Future Improvements

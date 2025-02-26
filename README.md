@@ -55,7 +55,7 @@ Consider also using different rolling_window other than 5
 - The model performed best when differentiating recent transactions.
 - Dimantionality reduction with mehods such as PCA did not improve the results, so were neglected (for clean code purposes, code was not added).
 - Changing the model into linear, with continous explained variable, did not contribute much for better predictions.
-- Applying naively LSTM on the transactions ordered by months to predict whether ANY churn happened, also seemed to be unstable (code was not added) 
+- Applying naively LSTM on the transactions ordered by months to predict whether ANY churn happened, also seemed to be unstable (code was not added , but can be pushed upon request) 
 l
 
 ## Future Improvements
